@@ -13,6 +13,9 @@
 		F8979FF726F792B300D52FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8979FF626F792B300D52FF9 /* Assets.xcassets */; };
 		F8979FFA26F792B300D52FF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8979FF926F792B300D52FF9 /* Preview Assets.xcassets */; };
 		F8979FFD26F792B300D52FF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8979FFB26F792B300D52FF9 /* LaunchScreen.storyboard */; };
+		F897A02726F7C4DF00D52FF9 /* SliderUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897A02626F7C4DF00D52FF9 /* SliderUIKit.swift */; };
+		F897A02926F7E56900D52FF9 /* CheckResultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897A02826F7E56900D52FF9 /* CheckResultButton.swift */; };
+		F897A02B26F7E62700D52FF9 /* ResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897A02A26F7E62700D52FF9 /* ResetButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F8979FF926F792B300D52FF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8979FFC26F792B300D52FF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8979FFE26F792B300D52FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F897A02626F7C4DF00D52FF9 /* SliderUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIKit.swift; sourceTree = "<group>"; };
+		F897A02826F7E56900D52FF9 /* CheckResultButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckResultButton.swift; sourceTree = "<group>"; };
+		F897A02A26F7E62700D52FF9 /* ResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				F8979FF026F792B200D52FF9 /* AppDelegate.swift */,
 				F8979FF226F792B200D52FF9 /* SceneDelegate.swift */,
+				F897A02826F7E56900D52FF9 /* CheckResultButton.swift */,
+				F897A02A26F7E62700D52FF9 /* ResetButton.swift */,
 				F8979FF426F792B200D52FF9 /* ContentView.swift */,
+				F897A02626F7C4DF00D52FF9 /* SliderUIKit.swift */,
 				F8979FF626F792B300D52FF9 /* Assets.xcassets */,
 				F8979FFB26F792B300D52FF9 /* LaunchScreen.storyboard */,
 				F8979FFE26F792B300D52FF9 /* Info.plist */,
@@ -146,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8979FF126F792B200D52FF9 /* AppDelegate.swift in Sources */,
+				F897A02B26F7E62700D52FF9 /* ResetButton.swift in Sources */,
+				F897A02726F7C4DF00D52FF9 /* SliderUIKit.swift in Sources */,
 				F8979FF326F792B200D52FF9 /* SceneDelegate.swift in Sources */,
+				F897A02926F7E56900D52FF9 /* CheckResultButton.swift in Sources */,
 				F8979FF526F792B200D52FF9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
